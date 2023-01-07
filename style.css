@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+#box{
+    width: 250px;
+    height: 150px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+button{
+    border: navajowhite;
+    background-color: black;
+    color: orangered;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
